@@ -1,0 +1,69 @@
+------------------------
+SONIC 1 SMS/GG LEVEL RIP
+------------------------
+
+1) CREDITS
+The tilesets contained within were originally created by SEGA 
+and Ancient.  The rip was created via an automated process by 
+Techokami, with information from Sonic Retro and the emulator
+MEKA to create the tilesheets.
+
+If you use the contents of this package, you must give credit
+to SEGA, Ancient, and Techokami.
+
+If you did not download this tileset from the following domains:
+http://holenet.info/
+http://www.spriters-resource.com/
+http://www.sonicfangameshq.com/
+http://www.themfz.com/
+then you should immediately start yelling at the webmaster for
+mirroring this file without permission.
+PROTIP: If you ask first, I'll almost always say yes!
+
+2) THE RIPPING PROCESS
+The graphics are stored in an unconventional and rather bizzare
+compression scheme, so I opted to manually create tilesheets
+of all the 8x8 tiles used in a level.  The metatile data in the
+ROM, however, is not compressed, which made things a lot easier
+for me.
+
+The source code to the script can be found here:
+http://holenet.info/s1smsgg_levelrip.phps
+
+3) EXPLANATION OF TILESET
+The most difficult aspect of making this rip is taking into
+account the rotating palletes, which make the level seem vibrant
+and animated.  To that end I made different tilesheets for each
+pallete variation.  Creates a lot of redundant tiles, but at
+least it gets the job done.
+
+I know I didn't get all the animations for the rings.  That will
+be on an objects sheet I plan to make in the near future.
+
+The Master System and Game Gear don't have very many layers to
+work with, so the background and foreground are merged together.
+In other words, the background is included in this set.
+
+4) CONTACT
+DO NOT ASK FOR LEVEL EDITING INSTRUCTIONS.
+DO NOT ASK FOR THINGS TO BE RIPPED.
+DO NOT ASK HOW I RIPPED THIS.
+DO NOT ASK HOW TO HACK ROMS.
+DO NOT ASK HOW TO WRITE PHP CODE.
+Email: techokami [AT] gdarcade [D0T] taloncrossing [D0T] com
+
+5) GREETS
+JoseTB, Retriever II, Ainsworth, The Kins, Shadsy, the Something 
+Awful goons, Tweaker, Scarred Sun, drx, phugolz, Sazpaimon, Coburn64,
+MatthewPZC, Naoshi, and all the staff at:
+-Mario Fan Games Galaxy
+-Metroid: Fan Mission
+-XCulT
+-Sonic Retro
+-Goshi-Dan's Arcade
+-The Spriter's Resource
+-SMW Central
+
+6) THE END
+Enjoy the tilesets.
+-Techokami

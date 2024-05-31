@@ -1,0 +1,15 @@
+
+C:\GAMEBOY\projekty\SonicGB>start /realtime /B /WAIT C:\GAMEBOY\GBDK2020\\bin\lcc -Wa-l -Wl-m -Wf--max-allocs-per-node70000000 --opt-code-size -c -o walksprite.o walksprite.c 
+
+C:\GAMEBOY\projekty\SonicGB>start /realtime /B /WAIT C:\GAMEBOY\GBDK2020\\bin\lcc -Wa-l -Wl-m -Wf--max-allocs-per-node90000000 --opt-code-size -c -o soic_c.o soic_c.c 
+
+C:\GAMEBOY\projekty\SonicGB>start /realtime /B /WAIT C:\GAMEBOY\GBDK2020\\bin\lcc -Wm-yC -Wa-l -Wl-m -Wf--max-allocs-per-node90000000 --opt-code-size -c -o cedule.o cedule.c 
+
+C:\GAMEBOY\projekty\SonicGB>start /realtime /B /WAIT C:\GAMEBOY\GBDK2020\\bin\lcc -Wm-yC -Wa-l -Wl-m --peep-asm --peep-return -Wf--max-allocs-per-node5800000 --opt-code-size -c -o main.o main.c 
+dead.c:22: warning 158: overflow in implicit constant conversion
+
+C:\GAMEBOY\projekty\SonicGB>rm woomy.map 
+
+C:\GAMEBOY\projekty\SonicGB>start /realtime /B /WAIT C:\GAMEBOY\GBDK2020\\bin\lcc -Wm-yC -Wa-l -Wl-m -o WOOMY.gbc main.o soic_c.o walksprite.o cedule.o  
+
+C:\GAMEBOY\projekty\SonicGB>goto comment 

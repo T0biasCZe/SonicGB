@@ -1,0 +1,1 @@
+ffmpeg -loop 1 -i numtiles.png -vf "crop=iw/11:ih/1:mod(n\,11)*iw/11:trunc(n/11)*ih/8" -vframes 11 %d.png
